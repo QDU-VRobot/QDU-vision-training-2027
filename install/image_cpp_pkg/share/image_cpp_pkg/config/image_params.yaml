@@ -1,0 +1,9 @@
+# config/image_params.yaml
+# 这是为 image_publish_node 节点准备的参数文件
+
+/image_publish_node: #顶层键，节点名称，必须与launch文件中的name一致（或与ImagePublishNode.cpp中节点名一致）
+  ros__parameters: #二级键，表示参数开始
+    #摄像头参数
+    gain: 1.5
+    exposure_time: 25.0
+    

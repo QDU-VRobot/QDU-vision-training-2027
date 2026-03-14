@@ -1,0 +1,6 @@
+Invoking command in '/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/song/ROS2/task_1/task_1_ws/src/image_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg
+Invoked command in '/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/song/ROS2/task_1/task_1_ws/src/image_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg
+Invoking command in '/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg -- -j22 -l22
+Invoked command in '/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg -- -j22 -l22
+Invoking command in '/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg
+Invoked command in '/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg
