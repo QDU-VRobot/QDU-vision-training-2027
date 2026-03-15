@@ -1,0 +1,11 @@
+/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg/CMakeFiles/uninstall.dir
+/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg/CMakeFiles/image_cpp_pkg_uninstall.dir
+/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg/CMakeFiles/ImagePublishNode.dir
+/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg/CMakeFiles/ImageSubscribeNode.dir
+/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg/CMakeFiles/test.dir
+/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg/CMakeFiles/edit_cache.dir
+/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg/CMakeFiles/rebuild_cache.dir
+/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg/CMakeFiles/list_install_components.dir
+/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg/CMakeFiles/install.dir
+/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg/CMakeFiles/install/local.dir
+/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg/CMakeFiles/install/strip.dir
