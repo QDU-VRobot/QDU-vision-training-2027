@@ -303,8 +303,8 @@ private:
             
             //命名为时间戳
             auto now = this->now();
-            std::string filename = "image_" + std::to_string(now.seconds()) + ".png";
-            std::string proc_filename = "processed_" + std::to_string(now.seconds()) + ".png";
+            std::string filename = "../image/image_" + std::to_string(now.seconds()) + ".png";
+            std::string proc_filename = "../image/processed_" + std::to_string(now.seconds()) + ".png";
             
             bool save_orig = cv::imwrite(filename, image);//保存原始图像
             bool save_proc = cv::imwrite(proc_filename, processed);//保存处理后图像
