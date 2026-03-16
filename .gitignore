@@ -1,0 +1,17 @@
+cat > .gitignore << EOF
+# ROS2 build artifacts
+task_1/build/
+task_1/install/
+task_1/log/
+
+# Compiled files
+*.pyc
+*~
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+EOF
