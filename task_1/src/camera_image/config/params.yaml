@@ -1,0 +1,20 @@
+# 发布节点参数
+image_publisher:
+  ros__parameters:
+    camera_id: 0          # 摄像头编号
+    gain: 100              # 增益
+    exposure_time: 100     # 曝光时间
+
+# 订阅节点参数
+image_subscriber:
+  ros__parameters:
+    # HSV参数
+    h_min: 35              # 色调下限
+    h_max: 77              
+    s_min: 50              # 饱和度
+    s_max: 255            
+    v_min: 50              # 明度
+    v_max: 255             
+    morph_operator: 2       # 形态学操作：0=腐蚀，1=膨胀，2=开运算，3=闭运算
+    morph_iterations: 1     # 迭代次数：数值越大效果越强
+    enable_contour: true    # 是否绘制轮廓
