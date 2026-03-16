@@ -1,0 +1,5 @@
+/image_subscriber:
+  ros__parameters:
+    threshold: 150
+    leixing: "open"
+    cishu: 2
