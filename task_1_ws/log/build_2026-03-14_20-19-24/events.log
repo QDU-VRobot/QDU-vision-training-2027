@@ -1,0 +1,180 @@
+[0.000000] (-) TimerEvent: {}
+[0.000481] (image_cpp_pkg) JobQueued: {'identifier': 'image_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000639] (image_cpp_pkg) JobStarted: {'identifier': 'image_cpp_pkg'}
+[0.005476] (image_cpp_pkg) JobProgress: {'identifier': 'image_cpp_pkg', 'progress': 'cmake'}
+[0.006135] (image_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/song/ROS2/task_1/task_1_ws/src/image_cpp_pkg', '-DCMAKE_INSTALL_PREFIX=/home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg'], 'cwd': '/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'song'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/song'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/song/ROS2/task_1/task_1_ws'), ('TERM_PROGRAM_VERSION', '1.106.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1128'), ('SYSTEMD_EXEC_PID', '1297'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '47732'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'song'), ('JOURNAL_STREAM', '8:24912'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'song'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/song/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/song/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/song-YOGA-Air-14-IMH9:@/tmp/.ICE-unix/1265,unix/song-YOGA-Air-14-IMH9:/tmp/.ICE-unix/1265'), ('INVOCATION_ID', 'd060768666484b3ab7ca278c0ec7fce7'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KOLBM3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6c7ee41ba4.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.069810] (image_cpp_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099882] (-) TimerEvent: {}
+[0.112791] (image_cpp_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.121975] (image_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.180311] (image_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.184540] (image_cpp_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.186202] (image_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.186723] (image_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.189015] (image_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199948] (-) TimerEvent: {}
+[0.251237] (image_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.258262] (image_cpp_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.258449] (image_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.258801] (image_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.283589] (image_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300037] (-) TimerEvent: {}
+[0.388410] (image_cpp_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.400158] (-) TimerEvent: {}
+[0.456919] (image_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.490116] (image_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.493175] (image_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.499452] (image_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.500242] (-) TimerEvent: {}
+[0.508350] (image_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.520883] (image_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.555211] (image_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.557017] (image_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600358] (-) TimerEvent: {}
+[0.623680] (image_cpp_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.647137] (image_cpp_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.679681] (image_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.688474] (image_cpp_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.700418] (-) TimerEvent: {}
+[0.740660] (image_cpp_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.740905] (image_cpp_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.800561] (-) TimerEvent: {}
+[0.801735] (image_cpp_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.802567] (image_cpp_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.845241] (image_cpp_pkg) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.869119] (image_cpp_pkg) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.874545] (image_cpp_pkg) StdoutLine: {'line': b'-- Found OpenCV: /usr/local (found version "4.5.4") \n'}
+[0.875666] (image_cpp_pkg) StdoutLine: {'line': b'-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[0.885078] (image_cpp_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.900657] (-) TimerEvent: {}
+[0.943161] (image_cpp_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.943354] (image_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.943406] (image_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.943640] (image_cpp_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.944064] (image_cpp_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.944256] (image_cpp_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.944802] (image_cpp_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.944897] (image_cpp_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.945262] (image_cpp_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.946082] (image_cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.955514] (image_cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[0.958971] (image_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg\n'}
+[0.968192] (image_cpp_pkg) CommandEnded: {'returncode': 0}
+[0.970593] (image_cpp_pkg) JobProgress: {'identifier': 'image_cpp_pkg', 'progress': 'build'}
+[0.970644] (image_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg', '--', '-j22', '-l22'], 'cwd': '/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'song'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/song'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/song/ROS2/task_1/task_1_ws'), ('TERM_PROGRAM_VERSION', '1.106.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1128'), ('SYSTEMD_EXEC_PID', '1297'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '47732'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'song'), ('JOURNAL_STREAM', '8:24912'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'song'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/song/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/song/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/song-YOGA-Air-14-IMH9:@/tmp/.ICE-unix/1265,unix/song-YOGA-Air-14-IMH9:/tmp/.ICE-unix/1265'), ('INVOCATION_ID', 'd060768666484b3ab7ca278c0ec7fce7'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KOLBM3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6c7ee41ba4.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.000764] (-) TimerEvent: {}
+[1.004118] (image_cpp_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ImageSubscribeNode.dir/src/ImageSubscribeNode.cpp.o\x1b[0m\n'}
+[1.007308] (image_cpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ImagePublishNode.dir/src/ImagePublishNode.cpp.o\x1b[0m\n'}
+[1.100914] (-) TimerEvent: {}
+[1.201324] (-) TimerEvent: {}
+[1.301714] (-) TimerEvent: {}
+[1.402147] (-) TimerEvent: {}
+[1.502579] (-) TimerEvent: {}
+[1.602976] (-) TimerEvent: {}
+[1.703376] (-) TimerEvent: {}
+[1.803821] (-) TimerEvent: {}
+[1.904192] (-) TimerEvent: {}
+[2.004666] (-) TimerEvent: {}
+[2.105071] (-) TimerEvent: {}
+[2.205568] (-) TimerEvent: {}
+[2.305969] (-) TimerEvent: {}
+[2.406331] (-) TimerEvent: {}
+[2.506728] (-) TimerEvent: {}
+[2.607114] (-) TimerEvent: {}
+[2.707491] (-) TimerEvent: {}
+[2.807842] (-) TimerEvent: {}
+[2.908288] (-) TimerEvent: {}
+[3.008995] (-) TimerEvent: {}
+[3.109364] (-) TimerEvent: {}
+[3.209809] (-) TimerEvent: {}
+[3.310347] (-) TimerEvent: {}
+[3.410868] (-) TimerEvent: {}
+[3.511354] (-) TimerEvent: {}
+[3.611799] (-) TimerEvent: {}
+[3.712354] (-) TimerEvent: {}
+[3.812855] (-) TimerEvent: {}
+[3.913380] (-) TimerEvent: {}
+[4.013910] (-) TimerEvent: {}
+[4.114431] (-) TimerEvent: {}
+[4.214931] (-) TimerEvent: {}
+[4.315444] (-) TimerEvent: {}
+[4.415855] (-) TimerEvent: {}
+[4.516255] (-) TimerEvent: {}
+[4.616673] (-) TimerEvent: {}
+[4.717077] (-) TimerEvent: {}
+[4.817505] (-) TimerEvent: {}
+[4.917920] (-) TimerEvent: {}
+[5.018354] (-) TimerEvent: {}
+[5.079894] (image_cpp_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable ImagePublishNode\x1b[0m\n'}
+[5.118469] (-) TimerEvent: {}
+[5.166060] (image_cpp_pkg) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.4.5\n'}
+[5.218583] (-) TimerEvent: {}
+[5.318918] (-) TimerEvent: {}
+[5.419242] (-) TimerEvent: {}
+[5.423934] (image_cpp_pkg) StdoutLine: {'line': b'[ 75%] Built target ImagePublishNode\n'}
+[5.519380] (-) TimerEvent: {}
+[5.619718] (-) TimerEvent: {}
+[5.720043] (-) TimerEvent: {}
+[5.820361] (-) TimerEvent: {}
+[5.920672] (-) TimerEvent: {}
+[6.020940] (-) TimerEvent: {}
+[6.121259] (-) TimerEvent: {}
+[6.221606] (-) TimerEvent: {}
+[6.321958] (-) TimerEvent: {}
+[6.422277] (-) TimerEvent: {}
+[6.522694] (-) TimerEvent: {}
+[6.623018] (-) TimerEvent: {}
+[6.723341] (-) TimerEvent: {}
+[6.823643] (-) TimerEvent: {}
+[6.923932] (-) TimerEvent: {}
+[7.024261] (-) TimerEvent: {}
+[7.124587] (-) TimerEvent: {}
+[7.224897] (-) TimerEvent: {}
+[7.325227] (-) TimerEvent: {}
+[7.425575] (-) TimerEvent: {}
+[7.525919] (-) TimerEvent: {}
+[7.626238] (-) TimerEvent: {}
+[7.726689] (-) TimerEvent: {}
+[7.827031] (-) TimerEvent: {}
+[7.927349] (-) TimerEvent: {}
+[8.027695] (-) TimerEvent: {}
+[8.063915] (image_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ImageSubscribeNode\x1b[0m\n'}
+[8.127813] (-) TimerEvent: {}
+[8.200536] (image_cpp_pkg) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_imgcodecs.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.4.5\n'}
+[8.200726] (image_cpp_pkg) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.4.5\n'}
+[8.200781] (image_cpp_pkg) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.4.5\n'}
+[8.227904] (-) TimerEvent: {}
+[8.328229] (-) TimerEvent: {}
+[8.428598] (-) TimerEvent: {}
+[8.528944] (-) TimerEvent: {}
+[8.547804] (image_cpp_pkg) StdoutLine: {'line': b'[100%] Built target ImageSubscribeNode\n'}
+[8.555448] (image_cpp_pkg) CommandEnded: {'returncode': 0}
+[8.555874] (image_cpp_pkg) JobProgress: {'identifier': 'image_cpp_pkg', 'progress': 'install'}
+[8.561770] (image_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg'], 'cwd': '/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'song'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/song'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/song/ROS2/task_1/task_1_ws'), ('TERM_PROGRAM_VERSION', '1.106.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1128'), ('SYSTEMD_EXEC_PID', '1297'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '47732'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'song'), ('JOURNAL_STREAM', '8:24912'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'song'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/song/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/song/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/song-YOGA-Air-14-IMH9:@/tmp/.ICE-unix/1265,unix/song-YOGA-Air-14-IMH9:/tmp/.ICE-unix/1265'), ('INVOCATION_ID', 'd060768666484b3ab7ca278c0ec7fce7'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KOLBM3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6c7ee41ba4.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.568424] (image_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.568514] (image_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/lib/image_cpp_pkg/ImagePublishNode\n'}
+[8.569467] (image_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/lib/image_cpp_pkg/ImagePublishNode" to ""\n'}
+[8.569522] (image_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/lib/image_cpp_pkg/ImageSubscribeNode\n'}
+[8.572134] (image_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/lib/image_cpp_pkg/ImageSubscribeNode" to ""\n'}
+[8.572229] (image_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/launch\n'}
+[8.572276] (image_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/launch/launch.py\n'}
+[8.572325] (image_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/config\n'}
+[8.572379] (image_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/config/image_params.yaml\n'}
+[8.572516] (image_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/image_cpp_pkg\n'}
+[8.572637] (image_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/image_cpp_pkg\n'}
+[8.572720] (image_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[8.572790] (image_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[8.572871] (image_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/environment/path.sh\n'}
+[8.572938] (image_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/environment/path.dsv\n'}
+[8.573013] (image_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/local_setup.bash\n'}
+[8.573084] (image_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/local_setup.sh\n'}
+[8.573165] (image_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/local_setup.zsh\n'}
+[8.573236] (image_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/local_setup.dsv\n'}
+[8.573311] (image_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/package.dsv\n'}
+[8.573408] (image_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/ament_index/resource_index/packages/image_cpp_pkg\n'}
+[8.573498] (image_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/cmake/image_cpp_pkgConfig.cmake\n'}
+[8.573555] (image_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/cmake/image_cpp_pkgConfig-version.cmake\n'}
+[8.573635] (image_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/package.xml\n'}
+[8.577758] (image_cpp_pkg) CommandEnded: {'returncode': 0}
+[8.625010] (image_cpp_pkg) JobEnded: {'identifier': 'image_cpp_pkg', 'rc': 0}
+[8.625718] (-) EventReactorShutdown: {}

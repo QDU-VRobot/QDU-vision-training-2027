@@ -1,0 +1,32 @@
+[35m[1mConsolidate compiler generated dependencies of target ImagePublishNode[0m
+[35m[1mConsolidate compiler generated dependencies of target ImageSubscribeNode[0m
+[ 50%] Built target ImagePublishNode
+[ 75%] [32mBuilding CXX object CMakeFiles/ImageSubscribeNode.dir/src/ImageSubscribeNode.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ImageSubscribeNode[0m
+/usr/bin/ld: warning: libopencv_imgcodecs.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.4.5
+/usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.4.5
+/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.4.5
+[100%] Built target ImageSubscribeNode
+-- Install configuration: ""
+-- Up-to-date: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/lib/image_cpp_pkg/ImagePublishNode
+-- Installing: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/lib/image_cpp_pkg/ImageSubscribeNode
+-- Set runtime path of "/home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/lib/image_cpp_pkg/ImageSubscribeNode" to ""
+-- Up-to-date: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/launch
+-- Up-to-date: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/launch/launch.py
+-- Up-to-date: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/config
+-- Up-to-date: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/config/image_params.yaml
+-- Up-to-date: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/image_cpp_pkg
+-- Up-to-date: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/image_cpp_pkg
+-- Up-to-date: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/environment/path.sh
+-- Up-to-date: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/environment/path.dsv
+-- Up-to-date: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/local_setup.bash
+-- Up-to-date: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/local_setup.sh
+-- Up-to-date: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/local_setup.zsh
+-- Up-to-date: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/local_setup.dsv
+-- Installing: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/package.dsv
+-- Up-to-date: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/ament_index/resource_index/packages/image_cpp_pkg
+-- Up-to-date: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/cmake/image_cpp_pkgConfig.cmake
+-- Up-to-date: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/cmake/image_cpp_pkgConfig-version.cmake
+-- Up-to-date: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/package.xml
