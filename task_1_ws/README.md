@@ -1,33 +1,80 @@
-# QDU-vision-training-2026
+一、ImageSubscribeNode
 
-27赛季算法组培训作业提交仓库
 
-## 提交要求
+1、共享指针保存数据
+// 第一次回调
+void data_callback(const sensor_msgs::msg::Image::SharedPtr msg)  // msg指向图像1
+{
+    // 状态：msg指向图像1（引用计数1）
+    //      last_image_ 为空（引用计数0）
+    
+    last_image_ = msg;
+    // 状态：msg指向图像1（引用计数2）
+    //      last_image_指向图像1（引用计数2）
+    
+    print_image_info(msg);
+}
+// 第二次回调
+void data_callback(const sensor_msgs::msg::Image::SharedPtr msg)  // msg指向图像2
+{
+    // 状态：msg指向图像2（引用计数1）
+    //      last_image_指向图像1（引用计数1）
+    
+    last_image_ = msg;
+    // 状态变化：
+    // 1. last_image_ 原来指向的图像1（引用计数减1→0，自动释放）
+    // 2. last_image_ 现在指向图像2（引用计数加1）
+    // 3. msg指向图像2（引用计数2）
+    // 4. last_image_指向图像2（引用计数2）
+    
+    print_image_info(msg);
+}
 
-项目必须使用 git 进行管理，包含必要的提交记录，commit message需包含有效信息，尽量不要出现 `update`、`111`等信息。
 
-第一次提交请创建分支，名为姓名拼音，此后的作业提交至该分支中。
+2.try-catch捕获并处理异常
+try中通过throw抛出错误码，由catch捕获，try中剩余代码不再执行
 
-目录结构应如下：
 
-```bash
-.
-├── task_1 # 任务一工作区
-├── task_2 # 任务二工作区
-├── task_3 # 任务三工作区
-......
-```
+3.Trigger服务被选中的根本原因是：保存图像是一个"触发式"操作，不需要输入参数，只需要知道成功与否。
+// 保存图像就像按相机快门
+// - 按快门：不需要参数（Trigger的空请求）
+// - 得到结果：成功/失败，照片文件名（Trigger的响应）
 
-需包含已实现任务点的完整源码、README文档、必要的学习记录文档。
+void save_image_callback(
+    const std::shared_ptr<std_srvs::srv::Trigger::Request> request,  // 空请求
+    std::shared_ptr<std_srvs::srv::Trigger::Response> response)      // 返回结果
+{
+    // 就像按快门：不需要任何输入
+    (void)request;  // 忽略空请求
+    
+    // 执行保存
+    bool success = save_image();
+    
+    // 返回结果
+    response->success = success;        // 成功了吗？
+    response->message = filename;       // 照片文件名
+}
 
-不可抄袭、滥用 AI，代码补全人之常情，"给出完整代码"不可接受。
 
-## 当前已布置任务
 
-### 任务一
 
-1. 编写两个ROS2节点，节点一 `ImagePublishNode` 通过OpenCV打开笔记本摄像头，将图像发布至话题 `/image`；节点二 `ImageSubscribeNode` 订阅话题 `/image` ，通过 ROS2 日志打印图像信息数据，包括消息头、消息所属坐标系、图像数据属性等等。
-2. 在 `ImageSubscribeNode` 中添加服务 `/save_image` ，触发时将最近接收的一帧图像保存到当前包下的 `images/` 目录（如不存在需创建），文件名使用该图像消息的 `header.stamp` 作为时间戳，格式为 `<sec>_<nanosec>.png`（例如 `1710326400_123456789.png`）。
-3. 添加 launch 文件，启动这两个节点，并通过 `yaml` 文件加载节点参数 `gain`、`exposure_time`等等。
-4. 在 `ImageSubscribeNode` 中对接收的图像进行处理，包括二值化、轮廓处理、各类形态学运算，二值化阈值、轮廓处理方法、形态学运算类型/次数作为 ROS2 可配置参数，将处理后的图像发布为 `/image_processed`。
-5. 下载并配置 Foxglove，启动 `foxglove_bridge`，在 Foxglove 中调试参数、显示图像。
+
+
+
+二、食用方法
+
+在homework_ws下
+source install/setup.bash
+ros2 launch image_cpp_pkg launch.py
+
+在foxglove中
+sudo apt update
+sudo apt installros-humble-foxglove-bridge
+ros2 run foxglove_bridge foxglove_bridge
+打开另一个终端
+cd ~/ROS2/task_1/task_1_ws
+colcon build
+source install/setup.bash
+ros2 launch image_cpp_pkg launch.py
+
+
