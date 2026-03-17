@@ -1,0 +1,36 @@
+[0.010s] Invoking command in '/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg -- -j22 -l22
+[0.067s] [35m[1mConsolidate compiler generated dependencies of target ImagePublishNode[0m
+[0.068s] [35m[1mConsolidate compiler generated dependencies of target ImageSubscribeNode[0m
+[0.081s] [ 50%] Built target ImagePublishNode
+[0.084s] [ 75%] [32mBuilding CXX object CMakeFiles/ImageSubscribeNode.dir/src/ImageSubscribeNode.cpp.o[0m
+[7.728s] [100%] [32m[1mLinking CXX executable ImageSubscribeNode[0m
+[7.946s] /usr/bin/ld: warning: libopencv_imgcodecs.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.4.5
+[7.947s] /usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.4.5
+[7.948s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.4.5
+[8.450s] [100%] Built target ImageSubscribeNode
+[8.462s] Invoked command in '/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg -- -j22 -l22
+[8.474s] Invoking command in '/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg
+[8.482s] -- Install configuration: ""
+[8.483s] -- Up-to-date: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/lib/image_cpp_pkg/ImagePublishNode
+[8.484s] -- Installing: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/lib/image_cpp_pkg/ImageSubscribeNode
+[8.486s] -- Set runtime path of "/home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/lib/image_cpp_pkg/ImageSubscribeNode" to ""
+[8.486s] -- Up-to-date: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/launch
+[8.486s] -- Up-to-date: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/launch/launch.py
+[8.486s] -- Up-to-date: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/config
+[8.486s] -- Up-to-date: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/config/image_params.yaml
+[8.486s] -- Up-to-date: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/image_cpp_pkg
+[8.487s] -- Up-to-date: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/image_cpp_pkg
+[8.487s] -- Up-to-date: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/environment/ament_prefix_path.sh
+[8.487s] -- Up-to-date: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/environment/ament_prefix_path.dsv
+[8.487s] -- Up-to-date: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/environment/path.sh
+[8.487s] -- Up-to-date: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/environment/path.dsv
+[8.487s] -- Up-to-date: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/local_setup.bash
+[8.487s] -- Up-to-date: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/local_setup.sh
+[8.487s] -- Up-to-date: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/local_setup.zsh
+[8.487s] -- Up-to-date: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/local_setup.dsv
+[8.487s] -- Installing: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/package.dsv
+[8.487s] -- Up-to-date: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/ament_index/resource_index/packages/image_cpp_pkg
+[8.487s] -- Up-to-date: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/cmake/image_cpp_pkgConfig.cmake
+[8.487s] -- Up-to-date: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/cmake/image_cpp_pkgConfig-version.cmake
+[8.487s] -- Up-to-date: /home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg/share/image_cpp_pkg/package.xml
+[8.489s] Invoked command in '/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg
