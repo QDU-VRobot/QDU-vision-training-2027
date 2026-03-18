@@ -263,12 +263,7 @@ private:
                 processed_msg->header.frame_id = "camera_frame_processed";
                 processed_publisher_->publish(*processed_msg);
                 
-                // 显示处理后的图像
-                if (show_processed_)
-                {
-                    cv::imshow("Processed Image", processed);
-                    cv::waitKey(1);
-                }
+            
             }
             
             // 打印原始图像信息
@@ -302,9 +297,13 @@ private:
             cv::Mat processed = process_image(image);
             
             //命名为时间戳
-            auto now = this->now();
-            std::string filename = "../image/image_" + std::to_string(now.seconds()) + ".png";
-            std::string proc_filename = "../image/processed_" + std::to_string(now.seconds()) + ".png";
+            auto img_time = last_image_->header.stamp;
+            std::string filename = "../../../image/image_" + 
+                                std::to_string(img_time.sec) + "_" + 
+                                std::to_string(img_time.nanosec) + ".png";
+            std::string proc_filename = "../../../image/processed_" + 
+                                    std::to_string(img_time.sec) + "_" + 
+                                    std::to_string(img_time.nanosec) + ".png";
             
             bool save_orig = cv::imwrite(filename, image);//保存原始图像
             bool save_proc = cv::imwrite(proc_filename, processed);//保存处理后图像

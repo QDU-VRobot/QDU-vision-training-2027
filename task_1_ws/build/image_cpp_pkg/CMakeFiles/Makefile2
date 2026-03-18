@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/song/ROS2/task_1/task_1_ws/src/image_cpp_pkg
+CMAKE_SOURCE_DIR = /home/song/ROS2/task/task_1_ws/src/image_cpp_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg
+CMAKE_BINARY_DIR = /home/song/ROS2/task/task_1_ws/build/image_cpp_pkg
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -85,14 +85,14 @@ clean: CMakeFiles/ImageSubscribeNode.dir/clean
 CMakeFiles/uninstall.dir/all: CMakeFiles/image_cpp_pkg_uninstall.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/song/ROS2/task/task_1_ws/build/image_cpp_pkg/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/song/ROS2/task/task_1_ws/build/image_cpp_pkg/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/song/ROS2/task/task_1_ws/build/image_cpp_pkg/CMakeFiles 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -111,14 +111,14 @@ CMakeFiles/uninstall.dir/clean:
 CMakeFiles/image_cpp_pkg_uninstall.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_cpp_pkg_uninstall.dir/build.make CMakeFiles/image_cpp_pkg_uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_cpp_pkg_uninstall.dir/build.make CMakeFiles/image_cpp_pkg_uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg/CMakeFiles --progress-num= "Built target image_cpp_pkg_uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/song/ROS2/task/task_1_ws/build/image_cpp_pkg/CMakeFiles --progress-num= "Built target image_cpp_pkg_uninstall"
 .PHONY : CMakeFiles/image_cpp_pkg_uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/image_cpp_pkg_uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/song/ROS2/task/task_1_ws/build/image_cpp_pkg/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/image_cpp_pkg_uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/song/ROS2/task/task_1_ws/build/image_cpp_pkg/CMakeFiles 0
 .PHONY : CMakeFiles/image_cpp_pkg_uninstall.dir/rule
 
 # Convenience name for target.
@@ -137,14 +137,14 @@ CMakeFiles/image_cpp_pkg_uninstall.dir/clean:
 CMakeFiles/ImagePublishNode.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImagePublishNode.dir/build.make CMakeFiles/ImagePublishNode.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImagePublishNode.dir/build.make CMakeFiles/ImagePublishNode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg/CMakeFiles --progress-num=1,2 "Built target ImagePublishNode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/song/ROS2/task/task_1_ws/build/image_cpp_pkg/CMakeFiles --progress-num=1,2 "Built target ImagePublishNode"
 .PHONY : CMakeFiles/ImagePublishNode.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ImagePublishNode.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/song/ROS2/task/task_1_ws/build/image_cpp_pkg/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ImagePublishNode.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/song/ROS2/task/task_1_ws/build/image_cpp_pkg/CMakeFiles 0
 .PHONY : CMakeFiles/ImagePublishNode.dir/rule
 
 # Convenience name for target.
@@ -163,14 +163,14 @@ CMakeFiles/ImagePublishNode.dir/clean:
 CMakeFiles/ImageSubscribeNode.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageSubscribeNode.dir/build.make CMakeFiles/ImageSubscribeNode.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageSubscribeNode.dir/build.make CMakeFiles/ImageSubscribeNode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg/CMakeFiles --progress-num=3,4 "Built target ImageSubscribeNode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/song/ROS2/task/task_1_ws/build/image_cpp_pkg/CMakeFiles --progress-num=3,4 "Built target ImageSubscribeNode"
 .PHONY : CMakeFiles/ImageSubscribeNode.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ImageSubscribeNode.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/song/ROS2/task/task_1_ws/build/image_cpp_pkg/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ImageSubscribeNode.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/song/ROS2/task/task_1_ws/build/image_cpp_pkg/CMakeFiles 0
 .PHONY : CMakeFiles/ImageSubscribeNode.dir/rule
 
 # Convenience name for target.

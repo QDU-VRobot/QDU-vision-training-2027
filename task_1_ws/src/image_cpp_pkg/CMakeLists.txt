@@ -10,41 +10,39 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(cv_bridge REQUIRED)
-find_package(OpenCV REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(std_srvs REQUIRED)
+
+# === 修改：强制使用系统的 OpenCV ===
+set(OpenCV_DIR "/usr/lib/x86_64-linux-gnu/cmake/opencv4")
+find_package(OpenCV REQUIRED)
+
+# === 新增：添加链接器标志，优先使用系统库 ===
+add_link_options(-Wl,-rpath,/usr/lib/x86_64-linux-gnu -Wl,--disable-new-dtags)
 
 add_executable(ImagePublishNode src/ImagePublishNode.cpp)
 add_executable(ImageSubscribeNode src/ImageSubscribeNode.cpp)
 
-ament_target_dependencies(ImagePublishNode rclcpp sensor_msgs cv_bridge OpenCV std_msgs)
-ament_target_dependencies(ImageSubscribeNode rclcpp sensor_msgs cv_bridge OpenCV std_msgs std_srvs)
+ament_target_dependencies(ImagePublishNode rclcpp sensor_msgs cv_bridge std_msgs)
+ament_target_dependencies(ImageSubscribeNode rclcpp sensor_msgs cv_bridge std_msgs std_srvs)
 
-
+target_link_libraries(ImagePublishNode ${OpenCV_LIBRARIES})
+target_link_libraries(ImageSubscribeNode ${OpenCV_LIBRARIES})
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
-  # the following line skips the linter which checks for copyrights
-  # comment the line when a copyright and license is added to all source files
   set(ament_cmake_copyright_FOUND TRUE)
-  # the following line skips cpplint (only works in a git repo)
-  # comment the line when this package is in a git repo and when
-  # a copyright and license is added to all source files
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
 
 install(TARGETS 
-ImagePublishNode ImageSubscribeNode
-DESTINATION lib/${PROJECT_NAME}
+  ImagePublishNode 
+  ImageSubscribeNode
+  DESTINATION lib/${PROJECT_NAME}
 )
 
-install(DIRECTORY launch
-DESTINATION share/${PROJECT_NAME}
-)
-
-
-install(DIRECTORY config
+install(DIRECTORY launch config
   DESTINATION share/${PROJECT_NAME}
 )
 
