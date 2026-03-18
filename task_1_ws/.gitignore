@@ -1,5 +1,5 @@
-*/.vscode/
-/build/
-/image/
-/install/
-/log/
+**/.vscode/
+**/build/
+**/install/
+**/log/
+**/image/
