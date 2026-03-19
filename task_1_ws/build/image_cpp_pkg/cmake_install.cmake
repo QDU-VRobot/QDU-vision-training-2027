@@ -1,8 +1,8 @@
-# Install script for directory: /home/song/ROS2/task_1/task_1_ws/src/image_cpp_pkg
+# Install script for directory: /home/song/ROS2/task/task_1_ws/src/image_cpp_pkg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/song/ROS2/task_1/task_1_ws/install/image_cpp_pkg")
+  set(CMAKE_INSTALL_PREFIX "/home/song/ROS2/task/task_1_ws/install/image_cpp_pkg")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,12 +49,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/image_cpp_pkg/ImagePublishNode"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/image_cpp_pkg" TYPE EXECUTABLE FILES "/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg/ImagePublishNode")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/image_cpp_pkg" TYPE EXECUTABLE FILES "/home/song/ROS2/task/task_1_ws/build/image_cpp_pkg/ImagePublishNode")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/image_cpp_pkg/ImagePublishNode" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/image_cpp_pkg/ImagePublishNode")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/image_cpp_pkg/ImagePublishNode"
-         OLD_RPATH "/opt/ros/humble/lib:/usr/local/lib:"
+         OLD_RPATH "/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/image_cpp_pkg/ImagePublishNode")
@@ -69,12 +69,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/image_cpp_pkg/ImageSubscribeNode"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/image_cpp_pkg" TYPE EXECUTABLE FILES "/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg/ImageSubscribeNode")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/image_cpp_pkg" TYPE EXECUTABLE FILES "/home/song/ROS2/task/task_1_ws/build/image_cpp_pkg/ImageSubscribeNode")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/image_cpp_pkg/ImageSubscribeNode" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/image_cpp_pkg/ImageSubscribeNode")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/image_cpp_pkg/ImageSubscribeNode"
-         OLD_RPATH "/opt/ros/humble/lib:/usr/local/lib:"
+         OLD_RPATH "/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/image_cpp_pkg/ImageSubscribeNode")
@@ -83,19 +83,18 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_cpp_pkg" TYPE DIRECTORY FILES "/home/song/ROS2/task_1/task_1_ws/src/image_cpp_pkg/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_cpp_pkg" TYPE DIRECTORY FILES
+    "/home/song/ROS2/task/task_1_ws/src/image_cpp_pkg/launch"
+    "/home/song/ROS2/task/task_1_ws/src/image_cpp_pkg/config"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_cpp_pkg" TYPE DIRECTORY FILES "/home/song/ROS2/task_1/task_1_ws/src/image_cpp_pkg/config")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/song/ROS2/task/task_1_ws/build/image_cpp_pkg/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/image_cpp_pkg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/image_cpp_pkg")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/image_cpp_pkg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/song/ROS2/task/task_1_ws/build/image_cpp_pkg/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/image_cpp_pkg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -103,7 +102,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_cpp_pkg/environment" TYPE FILE FILES "/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_cpp_pkg/environment" TYPE FILE FILES "/home/song/ROS2/task/task_1_ws/build/image_cpp_pkg/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -111,42 +110,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_cpp_pkg/environment" TYPE FILE FILES "/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_cpp_pkg/environment" TYPE FILE FILES "/home/song/ROS2/task/task_1_ws/build/image_cpp_pkg/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_cpp_pkg" TYPE FILE FILES "/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_cpp_pkg" TYPE FILE FILES "/home/song/ROS2/task/task_1_ws/build/image_cpp_pkg/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_cpp_pkg" TYPE FILE FILES "/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_cpp_pkg" TYPE FILE FILES "/home/song/ROS2/task/task_1_ws/build/image_cpp_pkg/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_cpp_pkg" TYPE FILE FILES "/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_cpp_pkg" TYPE FILE FILES "/home/song/ROS2/task/task_1_ws/build/image_cpp_pkg/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_cpp_pkg" TYPE FILE FILES "/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_cpp_pkg" TYPE FILE FILES "/home/song/ROS2/task/task_1_ws/build/image_cpp_pkg/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_cpp_pkg" TYPE FILE FILES "/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_cpp_pkg" TYPE FILE FILES "/home/song/ROS2/task/task_1_ws/build/image_cpp_pkg/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg/ament_cmake_index/share/ament_index/resource_index/packages/image_cpp_pkg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/song/ROS2/task/task_1_ws/build/image_cpp_pkg/ament_cmake_index/share/ament_index/resource_index/packages/image_cpp_pkg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_cpp_pkg/cmake" TYPE FILE FILES
-    "/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg/ament_cmake_core/image_cpp_pkgConfig.cmake"
-    "/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg/ament_cmake_core/image_cpp_pkgConfig-version.cmake"
+    "/home/song/ROS2/task/task_1_ws/build/image_cpp_pkg/ament_cmake_core/image_cpp_pkgConfig.cmake"
+    "/home/song/ROS2/task/task_1_ws/build/image_cpp_pkg/ament_cmake_core/image_cpp_pkgConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_cpp_pkg" TYPE FILE FILES "/home/song/ROS2/task_1/task_1_ws/src/image_cpp_pkg/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/image_cpp_pkg" TYPE FILE FILES "/home/song/ROS2/task/task_1_ws/src/image_cpp_pkg/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -157,5 +156,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/song/ROS2/task_1/task_1_ws/build/image_cpp_pkg/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/song/ROS2/task/task_1_ws/build/image_cpp_pkg/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

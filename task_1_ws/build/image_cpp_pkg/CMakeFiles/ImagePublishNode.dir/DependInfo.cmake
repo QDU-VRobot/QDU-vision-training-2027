@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/song/ROS2/task_1/task_1_ws/src/image_cpp_pkg/src/ImagePublishNode.cpp" "CMakeFiles/ImagePublishNode.dir/src/ImagePublishNode.cpp.o" "gcc" "CMakeFiles/ImagePublishNode.dir/src/ImagePublishNode.cpp.o.d"
+  "/home/song/ROS2/task/task_1_ws/src/image_cpp_pkg/src/ImagePublishNode.cpp" "CMakeFiles/ImagePublishNode.dir/src/ImagePublishNode.cpp.o" "gcc" "CMakeFiles/ImagePublishNode.dir/src/ImagePublishNode.cpp.o.d"
   )
 
 # Targets to which this target links.

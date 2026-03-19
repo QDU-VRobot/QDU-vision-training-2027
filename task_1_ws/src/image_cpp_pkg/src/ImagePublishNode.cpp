@@ -11,8 +11,8 @@ public:
     ImagePublishNode() : Node("image_publish_node")
     {
         //声明参数
-        this->declare_parameter("gain", 1.5);
-        this->declare_parameter("exposure_time", 25.0);
+        this->declare_parameter("gain", 1.0);
+        this->declare_parameter("exposure_time", 20.0);
         //获取参数
         this->get_parameter("gain",gain);
         this->get_parameter("exposure_time",exposure_time);
@@ -21,6 +21,8 @@ public:
         //创建发布者
         publisher_ = this->create_publisher<sensor_msgs::msg::Image>("/image", 10);
         
+
+
         //打开摄像头
         camera_.open(0);
         if(!camera_.isOpened())
@@ -28,13 +30,20 @@ public:
             RCLCPP_ERROR(this->get_logger(), "failed");
             return;
         }
+        //使用gain,exposure_time参数
+        camera_.set(cv::CAP_PROP_GAIN, gain);//增益越高，图像越亮，但同时噪声也会增加
+        camera_.set(cv::CAP_PROP_EXPOSURE, exposure_time);//曝光时间越长，进光量越多，图像越亮，但运动物体可能会产生拖影
+        RCLCPP_INFO(this->get_logger(), "Camera parameters set - gain: %.2f, exposure: %.2f", 
+                   gain, exposure_time);
         
+
         //创建定时器
         timer_ = this->create_wall_timer(
             std::chrono::milliseconds(1000), //调用回调的周期
             std::bind(&ImagePublishNode::timer_callback, this));//绑定回调函数
             
-        RCLCPP_INFO(this->get_logger(), "success");
+        RCLCPP_INFO(this->get_logger(), "success");  
+
     }
     
     ~ImagePublishNode()
@@ -58,9 +67,7 @@ private:
             return;
         }
         
-        //显示图像
-        cv::imshow("camera", frame);
-        cv::waitKey(1);
+        
         
         
         auto msg = cv_bridge::CvImage(std_msgs::msg::Header(), "bgr8", frame).toImageMsg();//将OpenCV图像转换为ROS图像消息
