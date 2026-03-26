@@ -1,0 +1,105 @@
+[0.000000] (-) TimerEvent: {}
+[0.000373] (seeker) JobQueued: {'identifier': 'seeker', 'dependencies': OrderedDict()}
+[0.000402] (seeker) JobStarted: {'identifier': 'seeker'}
+[0.005005] (seeker) JobProgress: {'identifier': 'seeker', 'progress': 'cmake'}
+[0.005827] (seeker) JobProgress: {'identifier': 'seeker', 'progress': 'build'}
+[0.005874] (seeker) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mindu/person/build/seeker', '--', '-j24', '-l24'], 'cwd': '/home/mindu/person/build/seeker', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mindu', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mindu', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2158', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=bd3a0dae67bb16a115e54c1d69b79f83', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'mindu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': ':/usr/local/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mindu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mindu-TX-Gaming-FX608JMR-FX608JMR:@/tmp/.ICE-unix/2158,unix/mindu-TX-Gaming-FX608JMR-FX608JMR:/tmp/.ICE-unix/2158', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/da20fa88_3472_4c00_a67c_f77342ffd3f7', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.142', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/mindu/person/build/seeker', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=bd3a0dae67bb16a115e54c1d69b79f83', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.055494] (seeker) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o\x1b[0m\n'}
+[0.059400] (seeker) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[0.099927] (-) TimerEvent: {}
+[0.200264] (-) TimerEvent: {}
+[0.300588] (-) TimerEvent: {}
+[0.400888] (-) TimerEvent: {}
+[0.501176] (-) TimerEvent: {}
+[0.601528] (-) TimerEvent: {}
+[0.701836] (-) TimerEvent: {}
+[0.802138] (-) TimerEvent: {}
+[0.902433] (-) TimerEvent: {}
+[1.002733] (-) TimerEvent: {}
+[1.103095] (-) TimerEvent: {}
+[1.203592] (-) TimerEvent: {}
+[1.303888] (-) TimerEvent: {}
+[1.404125] (-) TimerEvent: {}
+[1.504371] (-) TimerEvent: {}
+[1.604643] (-) TimerEvent: {}
+[1.704894] (-) TimerEvent: {}
+[1.777440] (seeker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mindu/person/seeker/src/subscriber.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Subscriber::\x1b[01;32m\x1b[Krecall_ser\x1b[m\x1b[K(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.777738] (seeker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mindu/person/seeker/src/subscriber.cpp:32:82:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Km\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.777779] (seeker) StderrLine: {'line': b'   32 | void Subscriber::recall_ser(\x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> m\x1b[m\x1b[K,const std::shared_ptr<std_srvs::srv::Empty::Response> n)\n'}
+[1.777812] (seeker) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[1.777841] (seeker) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mindu/person/seeker/src/subscriber.cpp:32:138:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kn\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.777872] (seeker) StderrLine: {'line': b'   32 | void Subscriber::recall_ser(const std::shared_ptr<std_srvs::srv::Empty::Request> m,\x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Empty::Response> n\x1b[m\x1b[K)\n'}
+[1.777900] (seeker) StderrLine: {'line': b'      |                                                                                    \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[1.805003] (-) TimerEvent: {}
+[1.905238] (-) TimerEvent: {}
+[2.005583] (-) TimerEvent: {}
+[2.105818] (-) TimerEvent: {}
+[2.206067] (-) TimerEvent: {}
+[2.306353] (-) TimerEvent: {}
+[2.406590] (-) TimerEvent: {}
+[2.506864] (-) TimerEvent: {}
+[2.607122] (-) TimerEvent: {}
+[2.707376] (-) TimerEvent: {}
+[2.807624] (-) TimerEvent: {}
+[2.907890] (-) TimerEvent: {}
+[3.008130] (-) TimerEvent: {}
+[3.108389] (-) TimerEvent: {}
+[3.208621] (-) TimerEvent: {}
+[3.308886] (-) TimerEvent: {}
+[3.409170] (-) TimerEvent: {}
+[3.509486] (-) TimerEvent: {}
+[3.538027] (seeker) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable publisher\x1b[0m\n'}
+[3.609655] (-) TimerEvent: {}
+[3.669849] (seeker) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.406, needed by /opt/ros/jazzy/lib/libcv_bridge.so, may conflict with libopencv_core.so.410\n'}
+[3.709806] (-) TimerEvent: {}
+[3.810055] (-) TimerEvent: {}
+[3.908173] (seeker) StdoutLine: {'line': b'[ 75%] Built target publisher\n'}
+[3.910162] (-) TimerEvent: {}
+[4.010367] (-) TimerEvent: {}
+[4.110913] (-) TimerEvent: {}
+[4.211138] (-) TimerEvent: {}
+[4.311395] (-) TimerEvent: {}
+[4.411634] (-) TimerEvent: {}
+[4.511913] (-) TimerEvent: {}
+[4.612204] (-) TimerEvent: {}
+[4.712492] (-) TimerEvent: {}
+[4.812749] (-) TimerEvent: {}
+[4.912999] (-) TimerEvent: {}
+[5.013239] (-) TimerEvent: {}
+[5.113521] (-) TimerEvent: {}
+[5.213818] (-) TimerEvent: {}
+[5.314077] (-) TimerEvent: {}
+[5.408007] (seeker) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable subscriber\x1b[0m\n'}
+[5.414210] (-) TimerEvent: {}
+[5.514442] (-) TimerEvent: {}
+[5.544958] (seeker) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_imgcodecs.so.406, needed by /opt/ros/jazzy/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.410\n'}
+[5.545277] (seeker) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.406, needed by /opt/ros/jazzy/lib/libcv_bridge.so, may conflict with libopencv_core.so.410\n'}
+[5.614538] (-) TimerEvent: {}
+[5.705062] (seeker) StdoutLine: {'line': b'[100%] Built target subscriber\n'}
+[5.714874] (-) TimerEvent: {}
+[5.718623] (seeker) CommandEnded: {'returncode': 0}
+[5.719225] (seeker) JobProgress: {'identifier': 'seeker', 'progress': 'install'}
+[5.728994] (seeker) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mindu/person/build/seeker'], 'cwd': '/home/mindu/person/build/seeker', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mindu', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mindu', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2158', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=bd3a0dae67bb16a115e54c1d69b79f83', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'mindu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': ':/usr/local/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mindu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mindu-TX-Gaming-FX608JMR-FX608JMR:@/tmp/.ICE-unix/2158,unix/mindu-TX-Gaming-FX608JMR-FX608JMR:/tmp/.ICE-unix/2158', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/da20fa88_3472_4c00_a67c_f77342ffd3f7', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.142', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/mindu/person/build/seeker', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=bd3a0dae67bb16a115e54c1d69b79f83', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[5.739219] (seeker) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.740646] (seeker) StdoutLine: {'line': b'-- Installing: /home/mindu/person/install/seeker/lib/seeker/publisher\n'}
+[5.742366] (seeker) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mindu/person/install/seeker/lib/seeker/publisher" to ""\n'}
+[5.743027] (seeker) StdoutLine: {'line': b'-- Installing: /home/mindu/person/install/seeker/lib/seeker/subscriber\n'}
+[5.748577] (seeker) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mindu/person/install/seeker/lib/seeker/subscriber" to ""\n'}
+[5.748933] (seeker) StdoutLine: {'line': b'-- Up-to-date: /home/mindu/person/install/seeker/share/ament_index/resource_index/package_run_dependencies/seeker\n'}
+[5.749028] (seeker) StdoutLine: {'line': b'-- Up-to-date: /home/mindu/person/install/seeker/share/ament_index/resource_index/parent_prefix_path/seeker\n'}
+[5.749107] (seeker) StdoutLine: {'line': b'-- Up-to-date: /home/mindu/person/install/seeker/share/seeker/environment/ament_prefix_path.sh\n'}
+[5.749179] (seeker) StdoutLine: {'line': b'-- Up-to-date: /home/mindu/person/install/seeker/share/seeker/environment/ament_prefix_path.dsv\n'}
+[5.749271] (seeker) StdoutLine: {'line': b'-- Up-to-date: /home/mindu/person/install/seeker/share/seeker/environment/path.sh\n'}
+[5.749357] (seeker) StdoutLine: {'line': b'-- Up-to-date: /home/mindu/person/install/seeker/share/seeker/environment/path.dsv\n'}
+[5.749430] (seeker) StdoutLine: {'line': b'-- Up-to-date: /home/mindu/person/install/seeker/share/seeker/local_setup.bash\n'}
+[5.749664] (seeker) StdoutLine: {'line': b'-- Up-to-date: /home/mindu/person/install/seeker/share/seeker/local_setup.sh\n'}
+[5.749825] (seeker) StdoutLine: {'line': b'-- Up-to-date: /home/mindu/person/install/seeker/share/seeker/local_setup.zsh\n'}
+[5.749907] (seeker) StdoutLine: {'line': b'-- Up-to-date: /home/mindu/person/install/seeker/share/seeker/local_setup.dsv\n'}
+[5.749982] (seeker) StdoutLine: {'line': b'-- Installing: /home/mindu/person/install/seeker/share/seeker/package.dsv\n'}
+[5.750051] (seeker) StdoutLine: {'line': b'-- Up-to-date: /home/mindu/person/install/seeker/share/ament_index/resource_index/packages/seeker\n'}
+[5.750119] (seeker) StdoutLine: {'line': b'-- Up-to-date: /home/mindu/person/install/seeker/share/seeker/cmake/seekerConfig.cmake\n'}
+[5.750188] (seeker) StdoutLine: {'line': b'-- Up-to-date: /home/mindu/person/install/seeker/share/seeker/cmake/seekerConfig-version.cmake\n'}
+[5.750258] (seeker) StdoutLine: {'line': b'-- Up-to-date: /home/mindu/person/install/seeker/share/seeker/package.xml\n'}
+[5.751899] (seeker) CommandEnded: {'returncode': 0}
+[5.766014] (seeker) JobEnded: {'identifier': 'seeker', 'rc': 0}
+[5.766293] (-) EventReactorShutdown: {}

@@ -1,0 +1,28 @@
+[0.007s] Invoking command in '/home/mindu/person/build/seeker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mindu/person/build/seeker -- -j24 -l24
+[0.064s] [ 50%] Built target publisher
+[0.064s] [100%] Built target subscriber
+[0.078s] Invoked command in '/home/mindu/person/build/seeker' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mindu/person/build/seeker -- -j24 -l24
+[0.091s] Invoking command in '/home/mindu/person/build/seeker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mindu/person/build/seeker
+[0.100s] -- Install configuration: ""
+[0.100s] -- Up-to-date: /home/mindu/person/install/seeker/lib/seeker/publisher
+[0.101s] -- Up-to-date: /home/mindu/person/install/seeker/lib/seeker/subscriber
+[0.101s] -- Up-to-date: /home/mindu/person/install/seeker/share/seeker//launch
+[0.101s] -- Up-to-date: /home/mindu/person/install/seeker/share/seeker//launch/kkk.launch.py
+[0.101s] -- Up-to-date: /home/mindu/person/install/seeker/share/seeker//config
+[0.101s] -- Installing: /home/mindu/person/install/seeker/share/seeker//config/con.yaml
+[0.101s] -- Up-to-date: /home/mindu/person/install/seeker/share/ament_index/resource_index/package_run_dependencies/seeker
+[0.101s] -- Up-to-date: /home/mindu/person/install/seeker/share/ament_index/resource_index/parent_prefix_path/seeker
+[0.101s] -- Up-to-date: /home/mindu/person/install/seeker/share/seeker/environment/ament_prefix_path.sh
+[0.101s] -- Up-to-date: /home/mindu/person/install/seeker/share/seeker/environment/ament_prefix_path.dsv
+[0.101s] -- Up-to-date: /home/mindu/person/install/seeker/share/seeker/environment/path.sh
+[0.102s] -- Up-to-date: /home/mindu/person/install/seeker/share/seeker/environment/path.dsv
+[0.102s] -- Up-to-date: /home/mindu/person/install/seeker/share/seeker/local_setup.bash
+[0.102s] -- Up-to-date: /home/mindu/person/install/seeker/share/seeker/local_setup.sh
+[0.102s] -- Up-to-date: /home/mindu/person/install/seeker/share/seeker/local_setup.zsh
+[0.102s] -- Up-to-date: /home/mindu/person/install/seeker/share/seeker/local_setup.dsv
+[0.102s] -- Installing: /home/mindu/person/install/seeker/share/seeker/package.dsv
+[0.102s] -- Up-to-date: /home/mindu/person/install/seeker/share/ament_index/resource_index/packages/seeker
+[0.102s] -- Up-to-date: /home/mindu/person/install/seeker/share/seeker/cmake/seekerConfig.cmake
+[0.102s] -- Up-to-date: /home/mindu/person/install/seeker/share/seeker/cmake/seekerConfig-version.cmake
+[0.102s] -- Up-to-date: /home/mindu/person/install/seeker/share/seeker/package.xml
+[0.104s] Invoked command in '/home/mindu/person/build/seeker' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mindu/person/build/seeker

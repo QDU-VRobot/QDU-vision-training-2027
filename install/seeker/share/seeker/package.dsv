@@ -1,0 +1,8 @@
+source;share/seeker/hook/cmake_prefix_path.ps1
+source;share/seeker/hook/cmake_prefix_path.dsv
+source;share/seeker/hook/cmake_prefix_path.sh
+source;share/seeker/local_setup.bash
+source;share/seeker/local_setup.dsv
+source;share/seeker/local_setup.ps1
+source;share/seeker/local_setup.sh
+source;share/seeker/local_setup.zsh

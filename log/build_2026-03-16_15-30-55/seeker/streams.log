@@ -1,0 +1,36 @@
+[0.009s] Invoking command in '/home/mindu/person/build/seeker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mindu/person/build/seeker -- -j24 -l24
+[0.075s] [ 50%] Built target publisher
+[0.075s] [ 75%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[1.931s] [01m[K/home/mindu/person/seeker/src/subscriber.cpp:[m[K In member function ‘[01m[Kvoid Subscriber::[01;32m[Krecall_ser[m[K(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)[m[K’:
+[1.931s] [01m[K/home/mindu/person/seeker/src/subscriber.cpp:32:82:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Km[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.931s]    32 | void Subscriber::recall_ser([01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> m[m[K,const std::shared_ptr<std_srvs::srv::Empty::Response> n)
+[1.931s]       |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[1.931s] [01m[K/home/mindu/person/seeker/src/subscriber.cpp:32:138:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kn[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.931s]    32 | void Subscriber::recall_ser(const std::shared_ptr<std_srvs::srv::Empty::Request> m,[01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Response> n[m[K)
+[1.931s]       |                                                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[5.854s] [100%] [32m[1mLinking CXX executable subscriber[0m
+[5.974s] /usr/bin/ld: warning: libopencv_imgcodecs.so.406, needed by /opt/ros/jazzy/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.410
+[5.974s] /usr/bin/ld: warning: libopencv_core.so.406, needed by /opt/ros/jazzy/lib/libcv_bridge.so, may conflict with libopencv_core.so.410
+[6.140s] [100%] Built target subscriber
+[6.149s] Invoked command in '/home/mindu/person/build/seeker' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mindu/person/build/seeker -- -j24 -l24
+[6.158s] Invoking command in '/home/mindu/person/build/seeker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mindu/person/build/seeker
+[6.170s] -- Install configuration: ""
+[6.170s] -- Up-to-date: /home/mindu/person/install/seeker/lib/seeker/publisher
+[6.170s] -- Installing: /home/mindu/person/install/seeker/lib/seeker/subscriber
+[6.177s] -- Set non-toolchain portion of runtime path of "/home/mindu/person/install/seeker/lib/seeker/subscriber" to ""
+[6.177s] -- Up-to-date: /home/mindu/person/install/seeker/share/ament_index/resource_index/package_run_dependencies/seeker
+[6.177s] -- Up-to-date: /home/mindu/person/install/seeker/share/ament_index/resource_index/parent_prefix_path/seeker
+[6.178s] -- Up-to-date: /home/mindu/person/install/seeker/share/seeker/environment/ament_prefix_path.sh
+[6.178s] -- Up-to-date: /home/mindu/person/install/seeker/share/seeker/environment/ament_prefix_path.dsv
+[6.178s] -- Up-to-date: /home/mindu/person/install/seeker/share/seeker/environment/path.sh
+[6.178s] -- Up-to-date: /home/mindu/person/install/seeker/share/seeker/environment/path.dsv
+[6.178s] -- Up-to-date: /home/mindu/person/install/seeker/share/seeker/local_setup.bash
+[6.178s] -- Up-to-date: /home/mindu/person/install/seeker/share/seeker/local_setup.sh
+[6.178s] -- Up-to-date: /home/mindu/person/install/seeker/share/seeker/local_setup.zsh
+[6.178s] -- Up-to-date: /home/mindu/person/install/seeker/share/seeker/local_setup.dsv
+[6.178s] -- Installing: /home/mindu/person/install/seeker/share/seeker/package.dsv
+[6.179s] -- Up-to-date: /home/mindu/person/install/seeker/share/ament_index/resource_index/packages/seeker
+[6.179s] -- Up-to-date: /home/mindu/person/install/seeker/share/seeker/cmake/seekerConfig.cmake
+[6.179s] -- Up-to-date: /home/mindu/person/install/seeker/share/seeker/cmake/seekerConfig-version.cmake
+[6.179s] -- Up-to-date: /home/mindu/person/install/seeker/share/seeker/package.xml
+[6.180s] Invoked command in '/home/mindu/person/build/seeker' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mindu/person/build/seeker

@@ -1,0 +1,23 @@
+[ 50%] Built target publisher
+[ 75%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[100%] [32m[1mLinking CXX executable subscriber[0m
+[100%] Built target subscriber
+-- Install configuration: ""
+-- Up-to-date: /home/mindu/person/install/seeker/lib/seeker/publisher
+-- Installing: /home/mindu/person/install/seeker/lib/seeker/subscriber
+-- Set non-toolchain portion of runtime path of "/home/mindu/person/install/seeker/lib/seeker/subscriber" to ""
+-- Up-to-date: /home/mindu/person/install/seeker/share/ament_index/resource_index/package_run_dependencies/seeker
+-- Up-to-date: /home/mindu/person/install/seeker/share/ament_index/resource_index/parent_prefix_path/seeker
+-- Up-to-date: /home/mindu/person/install/seeker/share/seeker/environment/ament_prefix_path.sh
+-- Up-to-date: /home/mindu/person/install/seeker/share/seeker/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/mindu/person/install/seeker/share/seeker/environment/path.sh
+-- Up-to-date: /home/mindu/person/install/seeker/share/seeker/environment/path.dsv
+-- Up-to-date: /home/mindu/person/install/seeker/share/seeker/local_setup.bash
+-- Up-to-date: /home/mindu/person/install/seeker/share/seeker/local_setup.sh
+-- Up-to-date: /home/mindu/person/install/seeker/share/seeker/local_setup.zsh
+-- Up-to-date: /home/mindu/person/install/seeker/share/seeker/local_setup.dsv
+-- Installing: /home/mindu/person/install/seeker/share/seeker/package.dsv
+-- Up-to-date: /home/mindu/person/install/seeker/share/ament_index/resource_index/packages/seeker
+-- Up-to-date: /home/mindu/person/install/seeker/share/seeker/cmake/seekerConfig.cmake
+-- Up-to-date: /home/mindu/person/install/seeker/share/seeker/cmake/seekerConfig-version.cmake
+-- Up-to-date: /home/mindu/person/install/seeker/share/seeker/package.xml

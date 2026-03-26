@@ -1,0 +1,39 @@
+[0.007s] Invoking command in '/home/mindu/person/build/seeker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mindu/person/build/seeker -- -j24 -l24
+[0.035s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.193s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.212s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.218s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.226s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.235s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.274s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.276s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.331s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.377s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.385s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.409s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[0.415s] -- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)
+[0.428s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.480s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.480s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/mindu/person/seeker/include>
+[0.480s] -- Configured cppcheck exclude dirs and/or files: 
+[0.480s] -- Added test 'lint_cmake' to check CMake code style
+[0.481s] -- Added test 'uncrustify' to check C / C++ code style
+[0.481s] -- Configured uncrustify additional arguments: 
+[0.481s] -- Added test 'xmllint' to check XML markup files
+[0.482s] -- Configuring done (0.5s)
+[0.491s] -- Generating done (0.0s)
+[0.494s] -- Build files have been written to: /home/mindu/person/build/seeker
+[0.523s] [ 25%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[0.528s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[3.765s] [ 75%] [32m[1mLinking CXX executable subscriber[0m
+[3.885s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[3.885s] (.text+0x1b): undefined reference to `main'
+[3.890s] collect2: error: ld returned 1 exit status
+[3.892s] gmake[2]: *** [CMakeFiles/subscriber.dir/build.make:209：subscriber] 错误 1
+[3.892s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/subscriber.dir/all] 错误 2
+[3.892s] gmake[1]: *** 正在等待未完成的任务....
+[3.961s] [100%] [32m[1mLinking CXX executable publisher[0m
+[4.072s] /usr/bin/ld: warning: libopencv_core.so.406, needed by /opt/ros/jazzy/lib/libcv_bridge.so, may conflict with libopencv_core.so.410
+[4.262s] [100%] Built target publisher
+[4.263s] gmake: *** [Makefile:146：all] 错误 2
+[4.264s] Invoked command in '/home/mindu/person/build/seeker' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mindu/person/build/seeker -- -j24 -l24

@@ -1,0 +1,20 @@
+/pub_node:
+  ros__parameters:
+    gain: 0.0
+    exposure_time: 0
+
+/sub_node:
+  ros__parameters:
+    gain: 0.0
+    exposure_time: 0
+    thresh: 120
+    max_thr: 255
+    type_thr: 0
+    shape: 0
+    ksize_w: 3
+    ksize_h: 3
+    morph_op: 0
+    times_morph: 1
+    type_morph: 1
+    mod_contour: 1
+    method_contour: 1

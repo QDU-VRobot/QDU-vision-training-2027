@@ -1,0 +1,2 @@
+Invoking command in '/home/mindu/person/build/seeker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mindu/person/build/seeker -- -j24 -l24
+Invoked command in '/home/mindu/person/build/seeker' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mindu/person/build/seeker -- -j24 -l24
